@@ -1,6 +1,10 @@
-public interface IDataFlow<T> where T : class
+using Generics.interfaces.IBlock;
+namespace Generics.interfaces.IDataFlow
 {
-    T RunFlow(T input);
-    void AddBlock(IBlock<T> block);
+    public interface IDataFlow<T> where T : class
+    {
+        T RunFlow(T input);
+        void AddBlock(IBlock<T> block);
 
+    }
 }
