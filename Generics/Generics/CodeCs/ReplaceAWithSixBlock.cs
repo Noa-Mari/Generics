@@ -3,11 +3,11 @@ using Generics.interfaces.IBlock;
 
 namespace Generics.CodeCs.DataFlow
 {
-    public class UpperCaseBlock : IBlock<string> 
+    public class UpperCaseBReplaceAWithSixBlocklock : IBlock<string>
     {
         public string Process(string input)
         {
-            return input.ToUpper();
+            return input.Replace("A", "6");
         }
-    } 
+    }
 }
