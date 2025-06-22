@@ -1,4 +1,8 @@
-public interface IBlock<T> where T : class
+
+namespace interfaces.IBlock
+{
+    public interface IBlock<T> where T : class
     {
         T Process(T input);
     }
+}
