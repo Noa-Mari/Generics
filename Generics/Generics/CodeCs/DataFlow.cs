@@ -5,7 +5,7 @@ using Generics.interfaces.IDataFlow;
 
 namespace Generics.CodeCs.DataFlow
 {
-    public class DataFlow<T> : IDataFlow<T> where T : class, IBlock<T>
+    public class DataFlow<T> : IDataFlow<T> where T : class, IBlock<T>,new()
     {
         private List<IBlock<T>> _blockList;
 
@@ -30,6 +30,8 @@ namespace Generics.CodeCs.DataFlow
 
             return input;
         }
+
+      
     }
 
 
