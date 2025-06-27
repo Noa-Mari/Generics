@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/noamari/Desktop/mamas/Generics/Generics/Generics/Generics.csproj",
+      "projectUniqueName": "/Users/noamari/Desktop/mamas2/Generics/Generics/Generics/Generics.csproj",
       "projectName": "Generics",
-      "projectPath": "/Users/noamari/Desktop/mamas/Generics/Generics/Generics/Generics.csproj",
+      "projectPath": "/Users/noamari/Desktop/mamas2/Generics/Generics/Generics/Generics.csproj",
       "packagesPath": "/Users/noamari/.nuget/packages/",
-      "outputPath": "/Users/noamari/Desktop/mamas/Generics/Generics/Generics/obj/",
+      "outputPath": "/Users/noamari/Desktop/mamas2/Generics/Generics/Generics/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/noamari/.nuget/NuGet/NuGet.Config"

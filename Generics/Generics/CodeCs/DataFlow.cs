@@ -5,7 +5,7 @@ using Generics.interfaces.IDataFlow;
 
 namespace Generics.CodeCs.DataFlow
 {
-    public class DataFlow<T> : IDataFlow<T> where T : class, IBlock<T>,new()
+    public class DataFlow<T> : IDataFlow<T> where T : class
     {
         private List<IBlock<T>> _blockList;
 
@@ -21,7 +21,7 @@ namespace Generics.CodeCs.DataFlow
 
         public T RunFlow(T input)
         {
-            int count = 0;
+            int count = 1;
             foreach (IBlock<T> block in _blockList)
             {
                 Console.WriteLine($"Processing block {count++}/{_blockList.Count}");
@@ -31,7 +31,6 @@ namespace Generics.CodeCs.DataFlow
             return input;
         }
 
-      
     }
 
 

@@ -7,16 +7,8 @@ namespace Generics.CodeCs.DataFlow
     {
         public string Process(string input)
         {
-            char[] charArray = input.ToCharArray();
 
-            string reversedString = String.Empty;
-
-            for (int i = charArray.Length - 1; i > -1; i--)
-            {
-                reversedString += charArray[i];
-            }
-
-            return reversedString;
+            return new string(input.Reverse().ToArray());
     
         }
     } 
